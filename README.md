@@ -30,6 +30,13 @@ This is a simple console-based C++ project designed as part of the Object-Orient
 
 ---
 
+## OOP Concepts Applied
+Inheritance — Admin, Instructor, and Student inherit from a base User class
+Polymorphism — role-specific menus and actions via virtual functions
+Encapsulation — user data and course records managed through class methods
+Abstraction — users interact through role-specific interfaces, not raw data
+
+---
 ## 🧾 Files Included
 
 | File Name          | Description                                 |
@@ -43,7 +50,18 @@ This is a simple console-based C++ project designed as part of the Object-Orient
 ---
 
 ## How to Run
-
-### Compile
 ```bash
-g++ OOP.cpp -o oop_project
+g++ -o lms OOP.cpp
+./lms
+```
+Or open in any C++ IDE (VS Code, Code::Blocks, Dev-C++) and build normally.
+
+## Tools Used
+C++ (OOP)
+g++ compiler
+
+## What I Learned
+Designing a class hierarchy before writing any code — the UML diagram came first
+How polymorphism simplifies adding new user roles without restructuring existing code
+Managing relationships between objects (User ↔ Course ↔ Enrolment) in memory
+Difference between what a class exposes publicly vs what it keeps private
