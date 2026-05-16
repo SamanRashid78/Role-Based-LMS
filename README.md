@@ -1,16 +1,12 @@
 # Learning Management System
 
-This is a simple console-based C++ project designed as part of the Object-Oriented Programming (OOP) course. It allows educators to create quizzes and post announcements, while students can register, take quizzes, and view announcements. The system uses file handling for saving and loading data.
+A console-based Learning Management System built in C++ using core Object-Oriented Programming concepts. Implements a role-based access control system where Admins, Instructors, and Students each have different permissions and views within the same application.This is a simple console-based C++ project designed as part of the Object-Oriented Programming (OOP) course. It allows educators to create quizzes and post announcements, while students can register, take quizzes, and view announcements. The system uses file handling for saving and loading data.
 
 ---
-
 ##  Project By
 - Saman Rashid
-
 ---
-
 ## Features
-
 ### Educator
 - Create and post announcements
 - Create quizzes with questions and correct answers
@@ -31,20 +27,20 @@ This is a simple console-based C++ project designed as part of the Object-Orient
 ---
 
 ## OOP Concepts Applied
-Inheritance — Admin, Instructor, and Student inherit from a base User class
-Polymorphism — role-specific menus and actions via virtual functions
-Encapsulation — user data and course records managed through class methods
-Abstraction — users interact through role-specific interfaces, not raw data
+- Inheritance: Admin, Instructor, and Student inherit from a base User class
+- Polymorphism: Role-specific menus and actions via virtual functions
+- Encapsulation: User data and course records managed through class methods
+- Abstraction: Users interact through role-specific interfaces, not raw data
 
 ---
 ## 🧾 Files Included
 
 | File Name          | Description                                 |
 |--------------------|---------------------------------------------|
-| `OOP.cpp`          | Main source code file (C++)                 |
-| `ProjectProposal.pdf` | Project proposal (uploaded to GitHub and Drive) |
-| `Report.md`           |Final project report in Markdown format|
-|`Diagram.png`     | Diagram for report|
+| `LMS Proj.cpp`          | Main source code file (C++)                 |
+| `Project Proposal.pdf` | Project proposal (uploaded to GitHub and Drive) |
+| `report.md`           |Final project report in Markdown format|
+|`diagram.png`     | Diagram for report|
 | `README.md`        | This file                                   |
 
 ---
@@ -61,7 +57,7 @@ C++ (OOP)
 g++ compiler
 
 ## What I Learned
-Designing a class hierarchy before writing any code — the UML diagram came first
-How polymorphism simplifies adding new user roles without restructuring existing code
-Managing relationships between objects (User ↔ Course ↔ Enrolment) in memory
-Difference between what a class exposes publicly vs what it keeps private
+- Designing a class hierarchy before writing any code — the UML diagram came first
+- How polymorphism simplifies adding new user roles without restructuring existing code
+- Managing relationships between objects (User ↔ Course ↔ Enrolment) in memory
+- Difference between what a class exposes publicly vs what it keeps private
