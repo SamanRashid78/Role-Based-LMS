@@ -1,4 +1,4 @@
-//Hypatia of Alexandria (c. 360–415 AD) was one of the first known female mathematicians, philosophers, and astronomers in history. She lived in ancient Egypt during the time of the Roman Empire and taught at the famous Library of Alexandria. Hypatia was known for her deep knowledge of mathematics, her teachings on Neoplatonist philosophy, and her efforts to preserve classical scientific knowledge.
+//Hypatia of Alexandria (c. 360â€“415 AD) was one of the first known female mathematicians, philosophers, and astronomers in history. She lived in ancient Egypt during the time of the Roman Empire and taught at the famous Library of Alexandria. Hypatia was known for her deep knowledge of mathematics, her teachings on Neoplatonist philosophy, and her efforts to preserve classical scientific knowledge.
 #include <iostream>
 #include <fstream>
 #include <string>
