@@ -53,8 +53,8 @@ g++ -o lms OOP.cpp
 Or open in any C++ IDE (VS Code, Code::Blocks, Dev-C++) and build normally.
 
 ## Tools Used
-C++ (OOP)
-g++ compiler
+- C++ (OOP)
+- Dev C++
 
 ## What I Learned
 - Designing a class hierarchy before writing any code — the UML diagram came first
